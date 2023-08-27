@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    padding-top: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+
+}
+div{
+    animation: colorchange 2s ease-in-out 2s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 350px;
+    border: 2px solid #fee104;
+    color: #fee104;
+    border-radius: 10px;
+}
+h1{
+    font-size: 25px;
+}
+@keyframes colorchange {
+    0%{
+        border: 7px solid #fee104;
+    color: #fee104;
+    border-radius: 10%;
+    }
+    20%{
+        border:7px solid aqua;
+          color: aqua;
+          border-radius: 20%;
+    }
+    40%{
+        border:7px solid #e22108;
+          color: rgb(21, 64, 254);
+          border-radius: 30%;
+
+    }
+    60%{
+        border:7px solid rgb(225, 16, 208);
+          color: rgb(13, 210, 144);
+          border-radius: 40%;
+
+    }
+    80%{
+        
+        border:7px solid white;
+          color: white;
+          border-radius: 45%;
+
+    }
+    100%{
+        border:7px solid rgb(44, 7, 130);
+          color: rgb(199, 204, 253);
+          border-radius: 50%;
+
+    }
+}
